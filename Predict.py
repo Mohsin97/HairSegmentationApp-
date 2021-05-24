@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import load_img
-from tensorflow.keras.preprocessing.image import img_to_array
-from tensorflow.keras.preprocessing.image import array_to_img
+from tensorflow.keras.preprocessing.image import load_img # Use PIL functions
+from tensorflow.keras.preprocessing.image import img_to_array # Use PIL function
+from tensorflow.keras.preprocessing.image import array_to_img # Use PIL function
 from keras.models import load_model
 from PIL import Image
 
