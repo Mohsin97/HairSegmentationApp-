@@ -26,7 +26,8 @@ class Predict:
         :param image_name: string defaults to 'video_image.png'
         """
         self.image_path = image_path
-        self.model_up = load_model('93_Percent_HairSegmentation.h5')
+        self.model_up = load_model(r'C:\Users\Mohsi\OneDrive\Computer Science\Final Year\FYP\FinalHairSe'
+                                   r'gmentationApp\HairSegmentation\93_Percent_HairSegmentation.h5')
         self.image_name = 'video_image'
 
     def get_mask_from_picture(self):

@@ -28,6 +28,7 @@ class TestPredict:
 
     def test_image_taken(self, image_taken):
         assert  type( Image.open(image_taken[0])).__name__ == 'PngImageFile'
+
         assert type(image_taken[1]).__name__ == 'tuple'
 
     def test_get_mask_from_local_image(self, image_path):
