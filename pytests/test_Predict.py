@@ -12,7 +12,7 @@ class TestPredict:
 
     @pytest.fixture
     def image_path(self):
-        return r'C:\Users\admin\PycharmProjects\pythonProject\test_image.jpg'
+        return r'..\test_image.jpg'
 
     @pytest.fixture
     def image_taken(self):
